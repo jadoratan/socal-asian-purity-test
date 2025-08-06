@@ -25,7 +25,7 @@ button_submit.addEventListener("click", calculateScore);
 button_reset.addEventListener("click", reset);
 
 // Fetch and populate list of questions
-fetch("list.csv")
+fetch("assets\\list.csv")
   .then(response => response.text())
   .then(csv => {
     questions_array = csv.trim().split('\n');
