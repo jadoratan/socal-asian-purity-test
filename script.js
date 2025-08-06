@@ -1,3 +1,8 @@
+// TODO: add copy results button?
+// TODO: force calculate score to scroll back to top of page
+// TODO: make it pretty
+
+
 // Global variables
 var debug = false;
 var questions_array = []; //to be filled

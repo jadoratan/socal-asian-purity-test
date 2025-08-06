@@ -1,0 +1,98 @@
+/**
+Sources:
+[1] Boba Clipart - https://static.vecteezy.com/system/resources/previews/011/555/620/non_2x/cute-milk-tea-icon-logo-clipart-vector.jpg
+
+**/
+
+body {
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(0, 0, 0);
+}
+
+.container {
+    max-width: 100%;
+    padding: 10px;
+}
+
+img {
+    max-width: 10%; /* Ensures images don’t overflow */
+    height: auto;
+    width: auto;
+}
+
+.button {
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 20px;
+    border-color: #c66480;
+    background-color: #f4c7d0;
+    color: #be5271;
+}
+            
+html {
+    background-color: #9faa74;
+    /* background-image: url("boba-cropped.png"); */
+    /* background-size: 30%; */
+}
+
+#list {
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+ol {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: #c66480;
+    cursor: pointer;
+    color: #fcebf1;
+}
+
+label {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 300%;
+    font-weight: bold;
+    color: #be5271;
+    padding: 0px;
+    margin: 0px;
+}
+
+#description {
+    color: #4a6644;
+}
+
+#score {
+    color: #c66480;
+}
+
+
+@media (max-width: 768px) {
+    img {
+        max-width: 100%; /* Ensures images don’t overflow */
+    }
+
+    .container {
+        padding: 5px;
+    }
+
+    .button {
+        font-size: 0.9em;
+        padding: 16px 16px;
+    }
+}
