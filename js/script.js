@@ -1,7 +1,7 @@
 // TODO: add copy results button?
-// TODO: force calculate score to scroll back to top of page
-// TODO: make it pretty
-
+// TODO: force calculate score to scroll back to top of page or make new page
+// TODO: make checkboxes boba
+// https://stackoverflow.com/questions/44299150/set-text-inside-a-check-box
 
 // Global variables
 var debug = false;
